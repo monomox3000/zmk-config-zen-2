@@ -28,6 +28,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        tog_layer_3 {
+            bindings = <&tog 3>;
+            key-positions = <0 11>;
+        };
+
+        ESCape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <24 35>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
